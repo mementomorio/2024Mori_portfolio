@@ -1,0 +1,63 @@
+<svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="0.5" y="0.5" width="20" height="20" fill="white" stroke="#DCDCDC"/>
+<rect x="0.5" y="40.5" width="20" height="20" fill="white" stroke="#DCDCDC"/>
+<rect x="40.5" y="0.5" width="20" height="20" fill="white" stroke="#DCDCDC"/>
+<rect x="40.5" y="40.5" width="20" height="20" fill="white" stroke="#DCDCDC"/>
+<mask id="path-5-inside-1_450_297" fill="white">
+<path d="M80 0H100V21H80V0Z"/>
+</mask>
+<path d="M80 0H100V21H80V0Z" fill="white"/>
+<path d="M80 0V-1H79V0H80ZM80 21H79V22H80V21ZM80 1H100V-1H80V1ZM100 20H80V22H100V20ZM81 21V0H79V21H81Z" fill="#DCDCDC" mask="url(#path-5-inside-1_450_297)"/>
+<mask id="path-7-inside-2_450_297" fill="white">
+<path d="M80 40H100V61H80V40Z"/>
+</mask>
+<path d="M80 40H100V61H80V40Z" fill="white"/>
+<path d="M80 40V39H79V40H80ZM80 61H79V62H80V61ZM80 41H100V39H80V41ZM100 60H80V62H100V60ZM81 61V40H79V61H81Z" fill="#DCDCDC" mask="url(#path-7-inside-2_450_297)"/>
+<rect x="0.5" y="20.5" width="20" height="20" fill="white" stroke="#DCDCDC"/>
+<rect x="0.5" y="60.5" width="20" height="20" fill="white" stroke="#DCDCDC"/>
+<mask id="path-11-inside-3_450_297" fill="white">
+<path d="M0 80H21V100H0V80Z"/>
+</mask>
+<path d="M0 80H21V100H0V80Z" fill="white"/>
+<path d="M0 80V79H-1V80H0ZM21 80H22V79H21V80ZM0 81H21V79H0V81ZM20 80V100H22V80H20ZM1 100V80H-1V100H1Z" fill="#DCDCDC" mask="url(#path-11-inside-3_450_297)"/>
+<rect x="40.5" y="20.5" width="20" height="20" fill="white" stroke="#DCDCDC"/>
+<rect x="40.5" y="60.5" width="20" height="20" fill="white" stroke="#DCDCDC"/>
+<mask id="path-15-inside-4_450_297" fill="white">
+<path d="M40 80H61V100H40V80Z"/>
+</mask>
+<path d="M40 80H61V100H40V80Z" fill="white"/>
+<path d="M40 80V79H39V80H40ZM61 80H62V79H61V80ZM40 81H61V79H40V81ZM60 80V100H62V80H60ZM41 100V80H39V100H41Z" fill="#DCDCDC" mask="url(#path-15-inside-4_450_297)"/>
+<mask id="path-17-inside-5_450_297" fill="white">
+<path d="M80 20H100V41H80V20Z"/>
+</mask>
+<path d="M80 20H100V41H80V20Z" fill="white"/>
+<path d="M80 20V19H79V20H80ZM80 41H79V42H80V41ZM80 21H100V19H80V21ZM100 40H80V42H100V40ZM81 41V20H79V41H81Z" fill="#DCDCDC" mask="url(#path-17-inside-5_450_297)"/>
+<mask id="path-19-inside-6_450_297" fill="white">
+<path d="M80 60H100V81H80V60Z"/>
+</mask>
+<path d="M80 60H100V81H80V60Z" fill="white"/>
+<path d="M80 60V59H79V60H80ZM80 81H79V82H80V81ZM80 61H100V59H80V61ZM100 80H80V82H100V80ZM81 81V60H79V81H81Z" fill="#DCDCDC" mask="url(#path-19-inside-6_450_297)"/>
+<mask id="path-21-inside-7_450_297" fill="white">
+<path d="M80 80H100V100H80V80Z"/>
+</mask>
+<path d="M80 80H100V100H80V80Z" fill="white"/>
+<path d="M80 80V79H79V80H80ZM80 81H100V79H80V81ZM81 100V80H79V100H81Z" fill="#DCDCDC" mask="url(#path-21-inside-7_450_297)"/>
+<rect x="20.5" y="0.5" width="20" height="20" fill="white" stroke="#DCDCDC"/>
+<rect x="20.5" y="40.5" width="20" height="20" fill="white" stroke="#DCDCDC"/>
+<rect x="60.5" y="0.5" width="20" height="20" fill="white" stroke="#DCDCDC"/>
+<rect x="60.5" y="40.5" width="20" height="20" fill="white" stroke="#DCDCDC"/>
+<rect x="20.5" y="20.5" width="20" height="20" fill="white" stroke="#DCDCDC"/>
+<rect x="20.5" y="60.5" width="20" height="20" fill="white" stroke="#DCDCDC"/>
+<mask id="path-29-inside-8_450_297" fill="white">
+<path d="M20 80H41V100H20V80Z"/>
+</mask>
+<path d="M20 80H41V100H20V80Z" fill="white"/>
+<path d="M20 80V79H19V80H20ZM41 80H42V79H41V80ZM20 81H41V79H20V81ZM40 80V100H42V80H40ZM21 100V80H19V100H21Z" fill="#DCDCDC" mask="url(#path-29-inside-8_450_297)"/>
+<rect x="60.5" y="20.5" width="20" height="20" fill="white" stroke="#DCDCDC"/>
+<rect x="60.5" y="60.5" width="20" height="20" fill="white" stroke="#DCDCDC"/>
+<mask id="path-33-inside-9_450_297" fill="white">
+<path d="M60 80H81V100H60V80Z"/>
+</mask>
+<path d="M60 80H81V100H60V80Z" fill="white"/>
+<path d="M60 80V79H59V80H60ZM81 80H82V79H81V80ZM60 81H81V79H60V81ZM80 80V100H82V80H80ZM61 100V80H59V100H61Z" fill="#DCDCDC" mask="url(#path-33-inside-9_450_297)"/>
+</svg>

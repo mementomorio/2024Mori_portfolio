@@ -1,0 +1,533 @@
+/* -------------- common ---------------- */
+body {
+    overflow-x: hidden;
+}
+
+:root {}
+
+/* -------------- body ---------------- */
+body {
+    /* background-image: linear-gradient(0deg, transparent 19px, #DCDCDC 20px), linear-gradient(90deg, transparent 19px, #DCDCDC 20px);
+    background-size: 20px 20px; */
+    background-image: url("../img/bg_grid.svg");
+    background-attachment: fixed;
+    background-repeat: repeat;
+
+    position: relative;
+    /*transitionの記述を追加*/
+    color: #262626;
+}
+
+img {
+    width: 100%;
+}
+
+/* -------------- header ---------------- */
+.hamburger {
+    display: block;
+    height: auto;
+    margin-left: auto;
+    position: relative;
+    z-index: 10;
+    border: none;
+
+}
+
+.header {
+    width: 100%;
+    position: fixed;
+    z-index: 9;
+}
+
+.himo {
+    display: block;
+    margin-right: 33px;
+}
+
+.mokuji {
+    display: block;
+    margin-top: 4px;
+    margin-left: -3px;
+}
+
+.header__nav-area {
+    position: fixed;
+    left: 0;
+    top: -100%;
+    z-index: 9;
+    height: 50vh;
+    width: 100%;
+    visibility: hidden;
+    padding-top: 60px;
+    background-color: #fff;
+    transition: 0.4s;
+}
+
+.header__nav-area.-active {
+    top: 0;
+    visibility: visible;
+    position: fixed;
+}
+
+.global-navigation {
+    padding-top: 40px;
+    padding-right: 25px;
+    padding-bottom: 120px;
+    padding-left: 25px;
+}
+
+.global-navigation__list>li {
+    padding-bottom: 20px;
+    border-bottom: 2px solid #e7e9ee;
+}
+
+.global-navigation__list>li+li {
+    margin-top: 20px;
+}
+
+.global-navigation__link {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #172e59;
+    font-weight: 900;
+    transition: color 0.4s;
+    font-size: 0.875rem;
+}
+
+/* -------------- top ---------------- */
+
+#top {
+    position: relative;
+    margin: 0 100px;
+}
+
+.top_h2 {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    text-align: center;
+
+    font-family: "Zen Kaku Gothic New", sans-serif;
+    font-weight: 900;
+    font-size: 80px;
+
+    color: #EDEDED;
+
+    z-index: -1;
+
+}
+
+.top_h2 h2 {
+    white-space: nowrap
+}
+
+.top_ty {
+    margin: 0 auto;
+    text-align: center;
+    background-color: black;
+    position: relative;
+
+}
+
+.top_ty p {
+    font-family: "Zen Kaku Gothic New", sans-serif;
+    font-weight: 900;
+
+    color: #FFFFFF;
+}
+
+.top_belong p {
+    font-family: "Shippori Mincho B1", serif;
+    text-align: center;
+
+    width: 70vw;
+    padding: 30px 0;
+    background-color: black;
+
+    font-weight: 600;
+    font-size: 5vw;
+    color: #FFFFFF;
+}
+
+.top_name {
+    font-family: "Shippori Mincho B1", serif;
+    text-align: center;
+
+    margin: 0 auto;
+
+    width: 24vw;
+    padding: 30px 0;
+}
+
+.top_name .a {
+    font-family: "Shippori Mincho B1", serif;
+    font-weight: 600;
+    font-size: 7vw;
+}
+
+.top_name .b {
+    font-family: "Shippori Mincho B1", serif;
+    text-align: center;
+
+    padding: 15px 0;
+    background-color: black;
+
+    font-weight: 600;
+    font-size: 4vw;
+    color: #FFFFFF;
+}
+
+/* -------------- about ---------------- */
+
+.about_aisatu {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    text-align: center;
+
+    font-family: "Zen Kaku Gothic New", sans-serif;
+    font-weight: 900;
+    font-size: 80px;
+
+    color: #EDEDED;
+
+    z-index: -10;
+    margin-bottom: 20vh;
+}
+
+.about_content {
+    display: flex;
+    white-space: nowrap;
+    overflow-x: scroll;
+    padding: 0 10vw;
+}
+
+.about_figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto 0;
+}
+
+.about_figure img {
+    width: 20vw;
+}
+
+.about_content::-webkit-scrollbar {
+    height: 10px;
+}
+
+.about_content::-webkit-scrollbar-thumb {
+    border: 1px solid #999;
+}
+
+/* -------------- about2 ---------------- */
+
+.about_list {
+    display: flex;
+}
+
+.about_box {
+    position: relative;
+    width: auto;
+    margin: 5vw;
+    margin-left: 10vw;
+}
+
+.about_box h3 {
+    font-family: "Shippori Mincho B1", serif;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 1.5em;
+    letter-spacing: 0.1em;
+
+    /* 262626 */
+    padding-top: 20px;
+
+    border-bottom: #999 solid 1px;
+}
+
+.about_box h3 span {
+    font-size: 0.6em;
+    font-weight: 600;
+}
+
+.about_box p {
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.01em;
+
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+/* -------------- skill ---------------- */
+#skills h2 {
+    font-family: "Shippori Mincho B1", serif;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 1.5em;
+    letter-spacing: 0.1em;
+
+    /* 262626 */
+    padding-top: 10vw;
+    padding-left: 100px;
+
+    border-bottom: #999 solid 1px;
+}
+
+.skills_area {
+    display: flex;
+    margin: 50px 100px;
+}
+
+.skills_box {
+    width: calc(1/2);
+    background-color: #fff;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    padding: 40px;
+}
+
+.skills_box h3 {
+    font-size: 20px;
+    font-family: "Shippori Mincho B1", serif;
+    margin-bottom: 30px;
+}
+
+.skills_box p {
+    margin-bottom: 30px;
+    line-height: 2rem;
+    letter-spacing: 0.01em;
+}
+
+.skills_box .text1 {
+    font-size: 16px;
+}
+
+.skills_box .text2 {
+    font-size: 16px;
+    color: #999;
+}
+
+.skills_box .text3 {
+    font-size: 16px;
+}
+
+.skills_box .text3 span {
+    font-size: 18px;
+}
+
+/* -------------- works ---------------- */
+
+.works_aisatu {
+    position: sticky;
+    top: 0;
+    width: 100vw;
+    text-align: center;
+}
+
+
+.works_aisatu h2 .a {
+    width: 100vw;
+    height: auto;
+    z-index: -1;
+}
+
+.works_content {
+    position: relative;
+    margin: 100px 100px;
+    padding-top: 35vw;
+    margin-top: -50vw;
+}
+
+.card_wrapper {
+    column-count: 3;
+}
+
+.card_wrapper li {
+    break-inside: avoid;
+    margin: 0 30px 50px;
+    color: #FFF;
+
+    max-height: 600px;
+
+    break-inside: auto;
+
+    overflow: hidden;
+    border: 1px solid #000;
+    transition: 0.3s;
+}
+
+/* -------------- contact ---------------- */
+#contact {
+    z-index: 100;
+    color: #FFF;
+}
+
+/* -------------- footer ---------------- */
+
+.footer {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    padding: 40px 100px;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 100px 0;
+}
+
+.footer-section1 {
+    font-family: serif;
+    font-size: 2.5vw;
+}
+
+.footer-section p,
+.footer-section a {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #cccccc;
+    text-decoration: none;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin: 0 10px;
+    width: 24px;
+}
+
+.copyright {
+    margin-top: 30px;
+    font-size: 12px;
+    color: #888888;
+}
+
+
+/* -------------- レスポンシブ ---------------- */
+
+/* -------------- 999以下 ---------------- */
+@media (max-width:999px) {
+
+    /* -------------- top ---------------- */
+    section {
+        margin: 0 10px;
+    }
+
+    .top_ty {
+        width: auto;
+        padding: 40px 30px;
+        margin-bottom: 100px;
+
+        -ms-writing-mode: tb-rl;
+        writing-mode: vertical-rl;
+
+        white-space: nowrap;
+
+        font-size: 3vh;
+        letter-spacing: 0.2em;
+
+        color: #FFFFFF;
+    }
+
+    .top_belong svg {
+        display: block;
+        margin: 0 auto;
+        height: auto;
+        z-index: -1;
+    }
+
+    .top_name {
+        text-align: center;
+        display: block;
+        margin: 0 0 0 auto;
+
+        width: 40vw;
+        padding: 30px 0;
+    }
+
+
+
+
+    .skills_area {
+        display: block;
+    }
+
+    .skills_box:first-child {
+        margin-bottom: 50px;
+    }
+
+
+    .card_wrapper {
+        column-count: 2;
+    }
+
+
+
+    .footer-content {
+        display: block;
+    }
+
+}
+
+/* -------------- 1000以下 ---------------- */
+@media (min-width:1000px) {
+
+    /* -------------- top ---------------- */
+    .top_ty {
+        width: 70vw;
+        padding: 30px 40px;
+        margin-top: 30vh;
+    }
+
+    .top_ty p {
+        font-family: "Zen Kaku Gothic New", sans-serif;
+        font-weight: 900;
+        font-size: 3vw;
+
+        letter-spacing: 0.2em;
+
+        color: #FFFFFF;
+    }
+
+    .top_belong {
+        margin-top: 50vh;
+    }
+
+    .top_belong p {
+        margin-left: auto;
+        text-align: center;
+        font-size: 3vw;
+        width: 40vw;
+    }
+
+    .top_belong svg {
+        display: block;
+        margin: 0 0 0 auto;
+    }
+
+    .top_name {
+        margin: 0 auto 0 0;
+        margin-top: 20vh;
+        margin-bottom: 20vh;
+    }
+
+
+
+
+
+
+
+    .skills_box:first-child {
+        margin-right: 50px;
+    }
+
+
+}
